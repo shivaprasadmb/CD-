@@ -3,7 +3,7 @@ i = 0
 print("enter your grammer rules, enter \'exec\' when completed\n")
 while(True):
     rule = input("enter " + str(i)+"th rule\n")
-    if(rule != "done"):
+    if(rule != "exec"):
         grammer.append(rule)
         i = i + 1
     else:
