@@ -8,6 +8,7 @@ while(True):
         i = i + 1
     else:
         break
+#p is a list used to store all grammar rules entered one rule at a time. Use "null" to represent null instead of using lambda or epsilon. 
 print()
 new_grammer = list()
 for j in grammer:
