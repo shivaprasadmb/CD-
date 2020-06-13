@@ -43,3 +43,4 @@ final_grammer = new_grammer[0].split('_')
 print("final grammer after left recursion removal\n")
 for p in final_grammer:
     print(p)
+
